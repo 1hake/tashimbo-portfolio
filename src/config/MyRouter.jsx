@@ -14,6 +14,12 @@ export default function MyRouter() {
             <Route path="/about">
               <About></About>
             </Route>
+            <Route path="/gallery">
+              <About></About>
+            </Route>
+            <Route path="/about">
+              <About></About>
+            </Route>
             <Route path="/">
               <Main></Main>
             </Route>

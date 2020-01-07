@@ -7,7 +7,7 @@ const useStyles = makeStyles({
     fontSize: "2em",
     fontFamily: "Barlow",
     fontWeight: "bold",
-    color: "white"
+    color: "black"
   }
 });
 

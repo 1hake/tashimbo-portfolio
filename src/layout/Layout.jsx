@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
   root: {
-    backgroundColor: "black",
+    backgroundColor: "white",
     height: "100vh",
     display: "flex",
     justifyContent: "flex-start",
@@ -12,11 +12,13 @@ const useStyles = makeStyles({
     flexDirection: "column"
   },
   container: {
-    backgroundColor: "black",
+    backgroundColor: "white",
     height: "90vh",
     display: "flex",
-    justifyContent: "center",
-    alignItems: "center"
+    justifyContent: "flex-start",
+    alignItems: "center",
+    flexDirection: "column",
+    width: "100%"
   }
 });
 
